@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请在任意一个编辑框内输入数据:"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/et_ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入十进制数据"
+        android:digits="0123456789"/>
+    <EditText
+        android:id="@+id/et_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入二进制数据"
+        android:digits="01234"/>
+    <EditText
+        android:id="@+id/et_sixteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入十六进制数据(不区分大小写)"
+        android:digits="0123456789abcdefABCDEF"/>
+    <Button
+        android:id="@+id/btn_translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="转换"
+        android:gravity="center"
+        android:textColor="#0000ff"/>
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清空全部"
+        android:gravity="center"
+        android:textColor="#0000ff"/>
+
+
+
+</LinearLayout>
